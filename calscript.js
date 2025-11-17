@@ -5,6 +5,11 @@ function append(val) {
   display.innerText += val;
 }
 
+function clearAll() {
+  display.innerText = '0';
+}
+
+
 function calculate() {
   try {
     let result = eval(display.innerText.replace('%', '/100'));
